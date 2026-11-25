@@ -1,0 +1,109 @@
+# ============================================================
+# FRAMELESS MOTOR CATALOGUE
+#
+# Real candidate data supplied from CubeMars documentation.
+#
+# IMPORTANT:
+# stator_id_min_mm is the WORST-CASE minimum usable diameter
+# and is the value used for packaging constraints.
+# ============================================================
+
+motors:
+
+  RO60_KV115:
+
+    name: "RO60 KV115"
+
+    rated_voltage_V: 48.0
+
+    outer_diameter_mm: 73.8
+    axial_length_mm: 23.0
+
+    # Drawing: 32 +0.039 mm
+    stator_id_nominal_mm: 32.0
+    stator_id_min_mm: 32.0
+    stator_id_max_mm: 32.039
+
+    rated_torque_nm: 0.80
+    peak_torque_nm: 2.40
+
+    rated_speed_rpm: 4200.0
+    no_load_speed_rpm: 5520.0
+
+    Kt_nm_per_A: 0.094
+    Kv_rpm_per_V: 115.0
+
+    rated_current_A: 8.5
+    peak_current_A: 40.0
+
+    phase_to_phase_resistance_ohm: 0.300
+
+    rotor_inertia_kgm2: 1.161e-4
+
+    mass_kg: 0.248
+
+
+  RO80_KV105:
+
+    name: "RO80 KV105"
+
+    rated_voltage_V: 48.0
+
+    outer_diameter_mm: 92.6
+    axial_length_mm: 26.4
+
+    # Drawing: 55 +0.046 mm
+    stator_id_nominal_mm: 55.0
+    stator_id_min_mm: 55.0
+    stator_id_max_mm: 55.046
+
+    rated_torque_nm: 1.30
+    peak_torque_nm: 4.00
+
+    rated_speed_rpm: 3600.0
+    no_load_speed_rpm: 5040.0
+
+    Kt_nm_per_A: 0.087
+    Kv_rpm_per_V: 105.0
+
+    rated_current_A: 15.0
+    peak_current_A: 50.0
+
+    phase_to_phase_resistance_ohm: 0.120
+
+    rotor_inertia_kgm2: 2.612e-4
+
+    mass_kg: 0.352
+
+
+  RO100_KV55_LITE:
+
+    name: "RO100 KV55 Lite"
+
+    rated_voltage_V: 48.0
+
+    outer_diameter_mm: 108.3
+    axial_length_mm: 28.0
+
+    # Drawing: 78 +/- 0.06 mm
+    stator_id_nominal_mm: 78.0
+    stator_id_min_mm: 77.94
+    stator_id_max_mm: 78.06
+
+    rated_torque_nm: 4.00
+    peak_torque_nm: 12.00
+
+    rated_speed_rpm: 2000.0
+    no_load_speed_rpm: 2550.0
+
+    Kt_nm_per_A: 0.200
+    Kv_rpm_per_V: 55.0
+
+    rated_current_A: 20.0
+    peak_current_A: 62.0
+
+    phase_to_phase_resistance_ohm: 0.143
+
+    rotor_inertia_kgm2: 5.290e-4
+
+    mass_kg: 0.525

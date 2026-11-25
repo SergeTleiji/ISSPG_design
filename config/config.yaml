@@ -1,0 +1,367 @@
+# ============================================================
+# ISSPG QDD ACTUATOR — CONFIGURATION
+#
+# Current purpose:
+#   First complete end-to-end pipeline smoke test.
+#
+# IMPORTANT:
+#   Several engineering factors below are preliminary.
+#   They must be reviewed before final optimization/reporting.
+# ============================================================
+
+
+# ============================================================
+# 1. ACTUATOR REQUIREMENTS
+# ============================================================
+
+requirements:
+
+  output_speed_rpm: 90.0
+
+  output_torque_nm: 7.45
+
+  # Vertical leg-support load:
+  # F_J = 50 * 9.81
+  joint_radial_load_N: 490.5
+
+
+# ============================================================
+# 2. PLANETARY GEOMETRY & SEARCH SPACE
+# ============================================================
+
+planetary:
+
+  search:
+
+    # Smoke-test search range.
+    #
+    # Kept >= 17 teeth so the Y_J LUT remains valid.
+
+    sun_teeth:
+      min: 18
+      max: 22
+      step: 2
+
+    planet_teeth:
+      min: 30
+      max: 42
+      step: 4
+
+    planet_counts:
+      - 3
+      - 4
+
+    modules_mm:
+      - 0.4
+      - 0.5
+
+    # Relatively wide values used for the first run because
+    # the temporary needle-bearing catalogue contains bearings
+    # approximately 10–16 mm wide.
+    face_widths_mm:
+      - 12.0
+      - 18.0
+
+  ratio:
+    min: 4.0
+    max: 8.0
+
+  # Preliminary mesh efficiency
+  efficiency: 0.95
+
+  # Minimum adjacent planet tip clearance
+  min_planet_clearance_mm: 0.25
+
+
+# ============================================================
+# 3. PLANETARY GEAR FORCES
+# ============================================================
+
+gear_forces:
+
+  pressure_angle_deg: 20.0
+
+  # Preliminary unequal planet-load sharing factor
+  K_gamma: 1.10
+
+
+# ============================================================
+# 4. AGMA GEAR STRENGTH
+#
+# IMPORTANT:
+# Keys are intentionally FLAT because they must match
+# GearStrengthConfig exactly.
+# ============================================================
+
+gear_strength:
+
+  # Gear quality
+  Q_v: 8.0
+
+  # Load factors
+  K_o: 1.0
+  K_s: 1.0
+  K_H: 1.10
+
+  # Surface condition factor
+  Z_R: 1.0
+
+  # Rim factors
+  K_B_sun: 1.0
+  K_B_planet: 1.0
+  K_B_ring: 1.0
+
+  # Temperature / reliability
+  K_T: 1.0
+  K_R: 1.0
+
+  # Bending stress-cycle factors
+  Y_N_sun: 1.0
+  Y_N_planet: 1.0
+  Y_N_ring: 1.0
+
+  # Reverse-bending factors
+  Y_I_sun: 1.0
+  Y_I_planet: 0.70
+  Y_I_ring: 1.0
+
+  # Contact stress-cycle factors
+  Z_N_sun: 1.0
+  Z_N_planet: 1.0
+  Z_N_ring: 1.0
+
+  # Hardness-ratio factors
+  Z_W_sun: 1.0
+  Z_W_planet: 1.0
+  Z_W_ring: 1.0
+
+  # Preliminary required safety factors
+  min_bending_safety_factor: 1.20
+  min_contact_safety_factor: 1.20
+
+
+# ============================================================
+# 5. SUN GEAR + INPUT SHAFT
+#
+# Marin factors are preliminary.
+# ============================================================
+
+sun_shaft:
+
+  # ----------------------------------------------------------
+  # Torque cycle
+  #
+  # Tmin = ratio * Tmax
+  #
+  # 0.0 means a preliminary pulsating:
+  #     0 -> Tmax
+  # ----------------------------------------------------------
+
+  torque_cycle:
+    min_to_max_ratio: 0.0
+
+  # ----------------------------------------------------------
+  # Safety factors
+  # ----------------------------------------------------------
+
+  fatigue_safety_factor: 1.50
+  yield_safety_factor: 1.50
+
+  # ----------------------------------------------------------
+  # Marin factors
+  #
+  # These names match SunShaftConfig exactly.
+  # ----------------------------------------------------------
+
+  marin_surface_factor: 0.85
+
+  marin_size_factor: 0.90
+
+  # DE-equivalent torsion already accounts for loading mode
+  marin_load_factor: 1.0
+
+  marin_temperature_factor: 1.0
+
+  # Preliminary 90% reliability-style value
+  marin_reliability_factor: 0.897
+
+  marin_misc_factor: 1.0
+
+  # ----------------------------------------------------------
+  # Torsional stiffness
+  # ----------------------------------------------------------
+
+  effective_torsion_length_mm: 20.0
+
+  max_twist_deg: 1.0
+
+  # ----------------------------------------------------------
+  # Sun-root packaging
+  # ----------------------------------------------------------
+
+  min_root_ligament_mm: 0.50
+
+
+# ============================================================
+# 6. ROTOR DRIVE PLATE + SUN SUPPORT BEARINGS
+# ============================================================
+
+rotor_support:
+
+  # Preliminary supported rotating mass.
+  # Later replace with rotor + plate + sun/shaft mass model.
+  supported_rotating_mass_kg: 0.20
+
+  # Preliminary CAD geometry
+  bearing_spacing_mm: 20.0
+
+  # Midpoint CG assumption
+  cg_position_mm: 10.0
+
+  # Plate strength
+  plate_safety_factor: 1.50
+
+  # Bearing requirements
+  required_bearing_life_h: 1000.0
+
+  min_static_safety_factor: 1.50
+
+  gravity_m_s2: 9.81
+
+
+# ============================================================
+# 7. PLANET PIN + NEEDLE BEARING
+# ============================================================
+
+planet_pin_bearing:
+
+  # Pin strength
+  pin_safety_factor: 1.50
+
+  # Pin stiffness
+  max_pin_deflection_mm: 0.05
+
+  max_pin_tilt_deg: 0.20
+
+  # Axial packaging
+  carrier_planet_clearance_mm: 0.50
+
+  # EACH side of needle bearing
+  axial_bearing_clearance_mm: 0.25
+
+  # Radial packaging
+  min_planet_root_ligament_mm: 0.50
+
+  # Bearing requirements
+  required_bearing_life_h: 1000.0
+
+  min_static_safety_factor: 1.50
+
+
+# ============================================================
+# 8. OUTPUT SHAFT + OUTPUT BEARINGS
+# ============================================================
+
+output_system:
+
+  # Static DE shaft safety factor
+  shaft_safety_factor: 1.50
+
+  # Preliminary CAD dimensions
+  inner_ring_spacer_mm: 4.0
+
+  # Bearing-B center to external joint load
+  load_overhang_mm: 10.0
+
+  # Bearing requirements
+  required_bearing_life_h: 1000.0
+
+  min_static_safety_factor: 1.50
+
+
+# ============================================================
+# 9. SINGLE-SIDED CARRIER
+# ============================================================
+
+carrier:
+
+  safety_factor: 1.50
+
+  # Material from pin-hole edge to carrier OD
+  pin_edge_ligament_mm: 2.0
+
+
+# ============================================================
+# 10. INTERNAL RING / RIM
+#
+# Shared by:
+#   motor_compatibility.py
+#   ring.py
+# ============================================================
+
+ring:
+
+  # m_B >= 1.2 -> preliminary K_B = 1
+  min_backup_ratio: 1.20
+
+  # Global structural ring safety
+  safety_factor: 1.50
+
+  # Radial clearance between ring OD and usable stator ID
+  radial_clearance_mm: 0.50
+
+
+# ============================================================
+# 11. MATERIAL ASSIGNMENTS
+#
+# These currently point to the temporary materials catalogue.
+# ============================================================
+
+materials:
+
+  gears:
+
+    sun: "PLACEHOLDER_GEAR_STEEL"
+
+    planet: "PLACEHOLDER_GEAR_STEEL"
+
+    ring: "PLACEHOLDER_GEAR_STEEL"
+
+
+  sun_shaft:
+
+    material: "PLACEHOLDER_GEAR_STEEL"
+
+
+  rotor_drive_plate:
+
+    material: "PLACEHOLDER_STRUCTURAL_STEEL"
+
+
+  planet_pin:
+
+    material: "PLACEHOLDER_GEAR_STEEL"
+
+
+  output_shaft:
+
+    material: "PLACEHOLDER_STRUCTURAL_STEEL"
+
+
+  carrier:
+
+    material: "PLACEHOLDER_STRUCTURAL_STEEL"
+
+
+  ring_structural:
+
+    material: "PLACEHOLDER_GEAR_STEEL"
+
+
+# ============================================================
+# 12. RUNTIME
+# ============================================================
+
+runtime:
+
+  progress_every: 50

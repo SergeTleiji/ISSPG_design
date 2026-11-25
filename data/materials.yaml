@@ -1,0 +1,95 @@
+# ============================================================
+# PLACEHOLDER MATERIAL CATALOGUE
+#
+# WARNING:
+# These values exist ONLY to develop and test the optimizer.
+# They MUST be replaced with documented material properties
+# before engineering conclusions are drawn.
+# ============================================================
+
+materials:
+
+  PLACEHOLDER_GEAR_STEEL:
+
+    name: "PLACEHOLDER Gear Steel"
+
+    material_type: "steel"
+
+    density_kg_m3: 7850.0
+
+    E_GPa: 205.0
+    G_GPa: 80.0
+    poisson_ratio: 0.29
+
+    Sy_MPa: 900.0
+    Sut_MPa: 1050.0
+
+    # Unmodified endurance limit
+    Se_prime_MPa: 500.0
+
+    # AGMA material strength numbers
+    St_MPa: 300.0
+    Sc_MPa: 1000.0
+
+    # Nominal compressive/bearing allowable
+    S_br_allow_MPa: 500.0
+
+    hardness_HB: 300
+
+    placeholder: true
+
+
+  PLACEHOLDER_STRUCTURAL_STEEL:
+
+    name: "PLACEHOLDER Structural Steel"
+
+    material_type: "steel"
+
+    density_kg_m3: 7850.0
+
+    E_GPa: 205.0
+    G_GPa: 80.0
+    poisson_ratio: 0.29
+
+    Sy_MPa: 550.0
+    Sut_MPa: 700.0
+
+    Se_prime_MPa: 330.0
+
+    # Not intended for gear tooth calculations,
+    # but retained so the schema stays uniform.
+    St_MPa: null
+    Sc_MPa: null
+
+    S_br_allow_MPa: 350.0
+
+    hardness_HB: 200
+
+    placeholder: true
+
+
+  PLACEHOLDER_ALUMINUM:
+
+    name: "PLACEHOLDER Aluminum"
+
+    material_type: "aluminum"
+
+    density_kg_m3: 2700.0
+
+    E_GPa: 69.0
+    G_GPa: 26.0
+    poisson_ratio: 0.33
+
+    Sy_MPa: 275.0
+    Sut_MPa: 310.0
+
+    Se_prime_MPa: 95.0
+
+    St_MPa: null
+    Sc_MPa: null
+
+    S_br_allow_MPa: 180.0
+
+    hardness_HB: 95
+
+    placeholder: true

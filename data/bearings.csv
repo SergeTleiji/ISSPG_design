@@ -1,0 +1,301 @@
+designation,type,has_inner_ring,bore_mm,outer_diameter_mm,width_mm,C_N,C0_N,limiting_speed_rpm,mass_kg
+623,deep_groove_ball,false,3,10.0,4.0,540,180,80000,0.0015
+618/4,deep_groove_ball,false,4,9.0,2.5,423,116,85000,0.0007
+619/4,deep_groove_ball,false,4,11.0,4.0,624,180,80000,0.0017
+604,deep_groove_ball,false,4,12.0,4.0,806,280,75000,0.0021
+624,deep_groove_ball,false,4,13.0,5.0,936,290,67000,0.0031
+634,deep_groove_ball,false,4,16.0,5.0,1110,380,60000,0.0054
+618/5,deep_groove_ball,false,5,11.0,3.0,468,143,75000,0.0012
+619/5,deep_groove_ball,false,5,13.0,4.0,884,335,70000,0.0025
+625,deep_groove_ball,false,5,16.0,5.0,1140,380,60000,0.005
+635,deep_groove_ball,false,5,19.0,6.0,2340,950,50000,0.0085
+618/6,deep_groove_ball,false,6,13.0,3.5,715,224,67000,0.002
+619/6,deep_groove_ball,false,6,15.0,5.0,884,270,63000,0.0039
+626,deep_groove_ball,false,6,19.0,6.0,2340,950,50000,0.0081
+618/7,deep_groove_ball,false,7,14.0,3.5,780,260,63000,0.0022
+619/7,deep_groove_ball,false,7,17.0,5.0,1060,375,56000,0.0049
+607,deep_groove_ball,false,7,19.0,6.0,2340,950,53000,0.0076
+627,deep_groove_ball,false,7,22.0,7.0,3450,1370,45000,0.012
+618/8,deep_groove_ball,false,8,16.0,4.0,819,300,56000,0.003
+619/8,deep_groove_ball,false,8,19.0,6.0,1460,465,53000,0.0071
+608,deep_groove_ball,false,8,22.0,7.0,3450,1370,48000,0.012
+628,deep_groove_ball,false,8,24.0,8.0,3900,1660,40000,0.018
+618/9,deep_groove_ball,false,9,17.0,4.0,871,340,53000,0.0034
+619/9,deep_groove_ball,false,9,20.0,6.0,2340,980,50000,0.0076
+609,deep_groove_ball,false,9,24.0,7.0,3900,1660,43000,0.014
+629,deep_groove_ball,false,9,26.0,8.0,4750,1960,38000,0.02
+61800,deep_groove_ball,false,10,19.0,5.0,1720,830,48000,0.0053
+61900,deep_groove_ball,false,10,22.0,6.0,2700,1270,45000,0.01
+6000,deep_groove_ball,false,10,26.0,8.0,4750,1960,40000,0.019
+16100,deep_groove_ball,false,10,28.0,8.0,5070,2360,38000,0.024
+6200,deep_groove_ball,false,10,30.0,9.0,5400,2360,36000,0.031
+6300,deep_groove_ball,false,10,35.0,11.0,8520,3400,32000,0.053
+61801,deep_groove_ball,false,12,21.0,5.0,1740,915,43000,0.0063
+61901,deep_groove_ball,false,12,24.0,6.0,2910,1460,40000,0.011
+6001,deep_groove_ball,false,12,28.0,8.0,5400,2360,38000,0.021
+16101,deep_groove_ball,false,12,30.0,8.0,5070,2360,38000,0.026
+6201,deep_groove_ball,false,12,32.0,10.0,7280,3100,32000,0.037
+6301,deep_groove_ball,false,12,37.0,12.0,10100,4150,28000,0.06
+61802,deep_groove_ball,false,15,24.0,5.0,1900,1100,38000,0.0065
+61902,deep_groove_ball,false,15,28.0,7.0,4360,2240,34000,0.016
+16002,deep_groove_ball,false,15,32.0,8.0,5850,2850,32000,0.03
+6002,deep_groove_ball,false,15,32.0,9.0,5850,2850,32000,0.03
+6202,deep_groove_ball,false,15,35.0,11.0,8060,3750,28000,0.045
+6302,deep_groove_ball,false,15,42.0,13.0,11900,5400,24000,0.082
+61803,deep_groove_ball,false,17,26.0,5.0,2030,1270,34000,0.0075
+61903,deep_groove_ball,false,17,30.0,7.0,4620,2550,32000,0.016
+16003,deep_groove_ball,false,17,35.0,8.0,6370,3250,28000,0.038
+6003,deep_groove_ball,false,17,35.0,10.0,6370,3250,28000,0.038
+6203,deep_groove_ball,false,17,40.0,12.0,9950,4750,24000,0.065
+6203 ETN9,deep_groove_ball,false,17,40.0,12.0,11400,5400,24000,0.064
+6303,deep_groove_ball,false,17,47.0,14.0,14300,6550,22000,0.11
+6403,deep_groove_ball,false,17,62.0,17.0,22900,10800,18000,0.27
+61804,deep_groove_ball,false,20,32.0,7.0,4030,2320,28000,0.018
+61904,deep_groove_ball,false,20,37.0,9.0,6370,3650,26000,0.037
+16004,deep_groove_ball,false,20,42.0,8.0,7280,4050,24000,0.05
+6004,deep_groove_ball,false,20,42.0,12.0,9950,5000,24000,0.067
+6204,deep_groove_ball,false,20,47.0,14.0,13500,6550,20000,0.11
+6204 ETN9,deep_groove_ball,false,20,47.0,14.0,15600,7650,20000,0.098
+6304,deep_groove_ball,false,20,52.0,15.0,16800,7800,19000,0.14
+6304 ETN9,deep_groove_ball,false,20,52.0,15.0,18200,9000,19000,0.14
+6404,deep_groove_ball,false,20,72.0,19.0,30700,15000,15000,0.41
+62/22,deep_groove_ball,false,22,50.0,14.0,14000,7650,19000,0.13
+63/22,deep_groove_ball,false,22,56.0,16.0,18600,9300,18000,0.18
+61805,deep_groove_ball,false,25,37.0,7.0,4360,2600,24000,0.022
+61905,deep_groove_ball,false,25,42.0,9.0,7020,4300,22000,0.045
+16005,deep_groove_ball,false,25,47.0,8.0,8060,4750,20000,0.06
+6005,deep_groove_ball,false,25,47.0,12.0,11900,6550,20000,0.078
+6205,deep_groove_ball,false,25,52.0,15.0,14800,7800,18000,0.13
+6205 ETN9,deep_groove_ball,false,25,52.0,15.0,17800,9800,18000,0.12
+6305,deep_groove_ball,false,25,62.0,17.0,23400,11600,16000,0.23
+6305 ETN9,deep_groove_ball,false,25,62.0,17.0,26000,13400,16000,0.22
+6405,deep_groove_ball,false,25,80.0,21.0,35800,19300,13000,0.54
+62/28,deep_groove_ball,false,28,58.0,16.0,16800,9500,16000,0.17
+63/28,deep_groove_ball,false,28,68.0,18.0,25100,13700,14000,0.3
+61806,deep_groove_ball,false,30,42.0,7.0,4490,2900,20000,0.025
+61906,deep_groove_ball,false,30,47.0,9.0,7280,4550,19000,0.049
+16006,deep_groove_ball,false,30,55.0,9.0,11900,7350,17000,0.089
+6006,deep_groove_ball,false,30,55.0,13.0,13800,8300,17000,0.12
+6206,deep_groove_ball,false,30,62.0,16.0,20300,11200,15000,0.2
+6206 ETN9,deep_groove_ball,false,30,62.0,16.0,23400,12900,15000,0.18
+6306,deep_groove_ball,false,30,72.0,19.0,29600,16000,13000,0.35
+6306 ETN9,deep_groove_ball,false,30,72.0,19.0,32500,17300,14000,0.33
+6406,deep_groove_ball,false,30,90.0,23.0,43600,23600,11000,0.75
+61807,deep_groove_ball,false,35,47.0,7.0,4360,3350,18000,0.029
+61907,deep_groove_ball,false,35,55.0,10.0,10800,7800,16000,0.08
+16007,deep_groove_ball,false,35,62.0,9.0,13000,8150,15000,0.11
+6007,deep_groove_ball,false,35,62.0,14.0,16800,10200,15000,0.15
+6207,deep_groove_ball,false,35,72.0,17.0,27000,15300,13000,0.29
+6207 ETN9,deep_groove_ball,false,35,72.0,17.0,31200,17600,13000,0.26
+6307,deep_groove_ball,false,35,80.0,21.0,35100,19000,12000,0.46
+6407,deep_groove_ball,false,35,100.0,25.0,55300,31000,10000,0.97
+61808,deep_groove_ball,false,40,52.0,7.0,4490,3750,16000,0.032
+61908,deep_groove_ball,false,40,62.0,12.0,13800,10000,14000,0.12
+16008,deep_groove_ball,false,40,68.0,9.0,13800,10200,14000,0.13
+6008,deep_groove_ball,false,40,68.0,15.0,17800,11000,14000,0.19
+6208,deep_groove_ball,false,40,80.0,18.0,32500,19000,11000,0.37
+6208 ETN9,deep_groove_ball,false,40,80.0,18.0,35800,20800,11000,0.34
+6308,deep_groove_ball,false,40,90.0,23.0,42300,24000,11000,0.63
+6408,deep_groove_ball,false,40,110.0,27.0,63700,36500,9000,1.25
+61809,deep_groove_ball,false,45,58.0,7.0,6630,6100,14000,0.04
+61909,deep_groove_ball,false,45,68.0,12.0,14000,10800,13000,0.14
+16009,deep_groove_ball,false,45,75.0,10.0,16500,10800,12000,0.17
+6009,deep_groove_ball,false,45,75.0,16.0,22100,14600,12000,0.24
+6209,deep_groove_ball,false,45,85.0,19.0,35100,21600,11000,0.42
+6309,deep_groove_ball,false,45,100.0,25.0,55300,31500,9500,0.84
+6409,deep_groove_ball,false,45,120.0,29.0,76100,45000,8500,1.55
+61810,deep_groove_ball,false,50,65.0,7.0,6760,6800,13000,0.052
+61910,deep_groove_ball,false,50,72.0,12.0,14600,11800,12000,0.14
+16010,deep_groove_ball,false,50,80.0,10.0,16800,11400,11000,0.18
+6010,deep_groove_ball,false,50,80.0,16.0,22900,16000,11000,0.26
+6210,deep_groove_ball,false,50,90.0,20.0,37100,23200,10000,0.45
+6310,deep_groove_ball,false,50,110.0,27.0,65000,38000,8500,1.1
+6410,deep_groove_ball,false,50,130.0,31.0,87100,52000,7500,1.95
+61811,deep_groove_ball,false,55,72.0,9.0,9040,8800,12000,0.083
+61911,deep_groove_ball,false,55,80.0,13.0,16500,14000,11000,0.19
+16011,deep_groove_ball,false,55,90.0,11.0,20300,14000,10000,0.27
+6011,deep_groove_ball,false,55,90.0,18.0,29600,21200,10000,0.39
+6211,deep_groove_ball,false,55,100.0,21.0,46200,29000,9000,0.61
+6311,deep_groove_ball,false,55,120.0,29.0,74100,45000,8000,1.35
+6411,deep_groove_ball,false,55,140.0,33.0,99500,62000,7000,2.35
+61812,deep_groove_ball,false,60,78.0,10.0,11900,11400,11000,0.11
+61912,deep_groove_ball,false,60,85.0,13.0,16500,14300,10000,0.2
+16012,deep_groove_ball,false,60,95.0,11.0,20800,15000,9500,0.29
+6012,deep_groove_ball,false,60,95.0,18.0,30700,23200,9500,0.41
+6212,deep_groove_ball,false,60,110.0,22.0,55300,36000,8000,0.78
+6312,deep_groove_ball,false,60,130.0,31.0,85200,52000,7000,1.7
+6412,deep_groove_ball,false,60,150.0,35.0,108000,69500,6300,2.85
+61813,deep_groove_ball,false,65,85.0,10.0,12400,12700,10000,0.13
+61913,deep_groove_ball,false,65,90.0,13.0,17400,16000,9500,0.22
+16013,deep_groove_ball,false,65,100.0,11.0,22500,19600,9000,0.3
+6013,deep_groove_ball,false,65,100.0,18.0,31900,25000,9000,0.44
+6213,deep_groove_ball,false,65,120.0,23.0,58500,40500,7500,1.0
+6313,deep_groove_ball,false,65,140.0,33.0,97500,60000,6700,2.1
+6413,deep_groove_ball,false,65,160.0,37.0,119000,78000,6000,3.35
+61814,deep_groove_ball,false,70,90.0,10.0,12400,13200,9000,0.14
+61914,deep_groove_ball,false,70,100.0,16.0,23800,21200,8500,0.35
+16014,deep_groove_ball,false,70,110.0,13.0,29100,25000,8000,0.44
+6014,deep_groove_ball,false,70,110.0,20.0,39700,31000,8000,0.61
+6214,deep_groove_ball,false,70,125.0,24.0,63700,45000,7000,1.1
+6314,deep_groove_ball,false,70,150.0,35.0,111000,68000,6300,2.55
+6414,deep_groove_ball,false,70,180.0,42.0,143000,104000,5300,4.95
+61815,deep_groove_ball,false,75,95.0,10.0,12700,14300,8500,0.15
+61915,deep_groove_ball,false,75,105.0,16.0,24200,22400,8000,0.37
+16015,deep_groove_ball,false,75,115.0,13.0,30200,27000,7500,0.46
+6015,deep_groove_ball,false,75,115.0,20.0,41600,33500,7500,0.65
+6215,deep_groove_ball,false,75,130.0,25.0,68900,49000,6700,1.2
+6315,deep_groove_ball,false,75,160.0,37.0,119000,76500,5600,3.05
+6415,deep_groove_ball,false,75,190.0,45.0,153000,114000,5000,5.8
+61816,deep_groove_ball,false,80,100.0,10.0,13000,15000,8000,0.15
+61916,deep_groove_ball,false,80,110.0,16.0,25100,20400,7500,0.38
+16016,deep_groove_ball,false,80,125.0,14.0,35100,31500,7000,0.61
+6016,deep_groove_ball,false,80,125.0,22.0,49400,40000,7000,0.87
+6216,deep_groove_ball,false,80,140.0,26.0,72800,55000,6000,1.45
+6316,deep_groove_ball,false,80,170.0,39.0,130000,86500,5300,3.65
+6416,deep_groove_ball,false,80,200.0,48.0,163000,125000,4800,6.85
+61817,deep_groove_ball,false,85,110.0,13.0,19500,20800,7500,0.27
+61917,deep_groove_ball,false,85,120.0,18.0,31900,30000,7000,0.55
+16017,deep_groove_ball,false,85,130.0,14.0,35800,33500,6700,0.64
+6017,deep_groove_ball,false,85,130.0,22.0,52000,43000,6700,0.92
+6217,deep_groove_ball,false,85,150.0,28.0,87100,64000,5600,1.8
+6317,deep_groove_ball,false,85,180.0,41.0,140000,96500,5000,4.25
+6417,deep_groove_ball,false,85,210.0,52.0,174000,137000,4500,8.05
+61818,deep_groove_ball,false,90,115.0,13.0,19500,22000,7000,0.28
+61918,deep_groove_ball,false,90,125.0,18.0,33200,31500,6700,0.59
+16018,deep_groove_ball,false,90,140.0,16.0,43600,39000,6300,0.85
+6018,deep_groove_ball,false,90,140.0,24.0,60500,50000,6300,1.15
+6218,deep_groove_ball,false,90,160.0,30.0,101000,73500,5300,2.2
+6318,deep_groove_ball,false,90,190.0,43.0,151000,108000,4800,4.95
+6418,deep_groove_ball,false,90,225.0,54.0,186000,150000,4300,9.8
+61819,deep_groove_ball,false,95,120.0,13.0,19900,22800,6700,0.3
+61919,deep_groove_ball,false,95,130.0,18.0,33800,33500,6300,0.61
+16019,deep_groove_ball,false,95,145.0,16.0,44900,41500,6000,0.89
+6019,deep_groove_ball,false,95,145.0,24.0,63700,54000,6000,1.1
+6219,deep_groove_ball,false,95,170.0,32.0,114000,81500,5000,2.65
+6319,deep_groove_ball,false,95,200.0,45.0,159000,118000,4500,5.75
+61820,deep_groove_ball,false,100,125.0,13.0,17800,18300,6300,0.31
+61920,deep_groove_ball,false,100,140.0,20.0,42300,41500,6000,0.83
+16020,deep_groove_ball,false,100,150.0,16.0,46200,44000,5600,0.94
+6020,deep_groove_ball,false,100,150.0,24.0,63700,54000,5600,1.25
+6220,deep_groove_ball,false,100,180.0,34.0,127000,93000,4800,3.15
+6320,deep_groove_ball,false,100,215.0,47.0,174000,140000,4300,7.1
+NKI 5/12 TN,needle_with_inner_ring,true,5,15.0,12.0,3800,4250,36000,0.012
+NKI 5/16 TN,needle_with_inner_ring,true,5,15.0,16.0,5010,5850,36000,0.015
+NKI 6/12 TN,needle_with_inner_ring,true,6,16.0,12.0,4400,5200,34000,0.014
+NKI 6/16 TN,needle_with_inner_ring,true,6,16.0,16.0,5720,7200,34000,0.017
+NKI 7/12 TN,needle_with_inner_ring,true,7,17.0,12.0,4570,5700,32000,0.014
+NKI 7/16 TN,needle_with_inner_ring,true,7,17.0,16.0,5940,8000,32000,0.018
+NKI 9/12,needle_with_inner_ring,true,9,19.0,12.0,6710,8150,30000,0.017
+NKI 9/16,needle_with_inner_ring,true,9,19.0,16.0,9130,12000,30000,0.022
+NA 4900,needle_with_inner_ring,true,10,22.0,13.0,8800,10400,28000,0.023
+NKI 10/16,needle_with_inner_ring,true,10,22.0,16.0,10200,12500,28000,0.029
+NKI 10/20,needle_with_inner_ring,true,10,22.0,20.0,12800,16600,28000,0.037
+NA 4901,needle_with_inner_ring,true,12,24.0,13.0,9900,12200,26000,0.026
+NKI 12/16,needle_with_inner_ring,true,12,24.0,16.0,11700,15300,26000,0.033
+NKI 12/20,needle_with_inner_ring,true,12,24.0,20.0,14500,20000,26000,0.042
+NA 6901,needle_with_inner_ring,true,12,24.0,22.0,16100,23200,26000,0.046
+NKI 15/16,needle_with_inner_ring,true,15,27.0,16.0,13400,19000,24000,0.039
+NKI 15/20,needle_with_inner_ring,true,15,27.0,20.0,16500,25500,24000,0.049
+NA 4902,needle_with_inner_ring,true,15,28.0,13.0,11200,15300,22000,0.034
+NA 6902,needle_with_inner_ring,true,15,28.0,23.0,17200,27000,22000,0.064
+NKIS 15,needle_with_inner_ring,true,15,35.0,20.0,24600,30000,19000,0.092
+NKI 17/16,needle_with_inner_ring,true,17,29.0,16.0,13800,20400,22000,0.042
+NKI 17/20,needle_with_inner_ring,true,17,29.0,20.0,17200,27000,22000,0.053
+NA 4903,needle_with_inner_ring,true,17,30.0,13.0,11400,16300,20000,0.037
+NA 6903,needle_with_inner_ring,true,17,30.0,23.0,18700,30500,20000,0.072
+NKIS 17,needle_with_inner_ring,true,17,37.0,20.0,26000,33500,17000,0.098
+NKI 20/16,needle_with_inner_ring,true,20,32.0,16.0,15400,24500,19000,0.048
+NKI 20/20,needle_with_inner_ring,true,20,32.0,20.0,19000,32500,19000,0.06
+NA 4904,needle_with_inner_ring,true,20,37.0,17.0,21600,28000,17000,0.075
+NA 6904,needle_with_inner_ring,true,20,37.0,30.0,35200,53000,17000,0.14
+NKIS 20,needle_with_inner_ring,true,20,42.0,20.0,28600,39000,15000,0.13
+NKI 22/16,needle_with_inner_ring,true,22,34.0,16.0,15700,26000,17000,0.052
+NKI 22/20,needle_with_inner_ring,true,22,34.0,20.0,19400,34500,17000,0.065
+NA 49/22,needle_with_inner_ring,true,22,39.0,17.0,23300,32000,15000,0.08
+NA 69/22,needle_with_inner_ring,true,22,39.0,30.0,36900,57000,15000,0.15
+NKI 25/20 TN,needle_with_inner_ring,true,25,38.0,20.0,24600,42500,15000,0.08
+NKI 25/30,needle_with_inner_ring,true,25,38.0,30.0,31900,60000,15000,0.12
+NA 4905,needle_with_inner_ring,true,25,42.0,17.0,24200,34500,15000,0.088
+NA 6905,needle_with_inner_ring,true,25,42.0,30.0,38000,62000,15000,0.16
+NKIS 25,needle_with_inner_ring,true,25,47.0,22.0,34100,46500,13000,0.16
+NKI 28/20 TN,needle_with_inner_ring,true,28,42.0,20.0,26400,48000,14000,0.092
+NKI 28/30,needle_with_inner_ring,true,28,42.0,30.0,34100,65500,14000,0.14
+NA 49/28,needle_with_inner_ring,true,28,45.0,17.0,25100,36500,14000,0.098
+NA 69/28,needle_with_inner_ring,true,28,45.0,30.0,39600,65500,14000,0.18
+NKI 30/20 TN,needle_with_inner_ring,true,30,45.0,20.0,27500,52000,13000,0.11
+NKI 30/30 TN,needle_with_inner_ring,true,30,45.0,30.0,40200,85000,13000,0.17
+NA 4906,needle_with_inner_ring,true,30,47.0,17.0,25500,39000,13000,0.1
+NA 6906,needle_with_inner_ring,true,30,47.0,30.0,42900,75000,13000,0.19
+NKIS 30,needle_with_inner_ring,true,30,52.0,22.0,36900,54000,12000,0.18
+NKI 32/20,needle_with_inner_ring,true,32,47.0,20.0,25100,46500,12000,0.11
+NKI 32/30,needle_with_inner_ring,true,32,47.0,30.0,36900,76500,12000,0.17
+NA 49/32,needle_with_inner_ring,true,32,52.0,20.0,30800,51000,11000,0.16
+NA 69/32,needle_with_inner_ring,true,32,52.0,36.0,47300,90000,11000,0.29
+NKI 35/20 TN,needle_with_inner_ring,true,35,50.0,20.0,29700,60000,11000,0.12
+NKI 35/30,needle_with_inner_ring,true,35,50.0,30.0,38000,83000,11000,0.19
+NA 4907,needle_with_inner_ring,true,35,55.0,20.0,31900,54000,11000,0.17
+NA 6907,needle_with_inner_ring,true,35,55.0,36.0,48400,93000,11000,0.31
+NKIS 35,needle_with_inner_ring,true,35,58.0,22.0,39100,61000,10000,0.22
+NKI 38/20,needle_with_inner_ring,true,38,53.0,20.0,27500,55000,11000,0.13
+NKI 38/30,needle_with_inner_ring,true,38,53.0,30.0,40200,90000,11000,0.21
+NKI 40/20 TN,needle_with_inner_ring,true,40,55.0,20.0,31400,65500,10000,0.14
+NKI 40/30 TN,needle_with_inner_ring,true,40,55.0,30.0,45700,108000,10000,0.22
+NA 4908,needle_with_inner_ring,true,40,62.0,22.0,42900,71000,9500,0.23
+NA 6908,needle_with_inner_ring,true,40,62.0,40.0,67100,125000,9500,0.43
+NKIS 40,needle_with_inner_ring,true,40,65.0,22.0,42900,72000,9000,0.28
+NKI 42/20,needle_with_inner_ring,true,42,57.0,20.0,29200,61000,10000,0.14
+NKI 42/30,needle_with_inner_ring,true,42,57.0,30.0,41800,98000,10000,0.22
+NKI 45/25 TN,needle_with_inner_ring,true,45,62.0,25.0,42900,91500,9000,0.22
+NKI 45/35 TN,needle_with_inner_ring,true,45,62.0,35.0,58300,137000,9000,0.31
+NA 4909,needle_with_inner_ring,true,45,68.0,22.0,45700,78000,8500,0.27
+NA 6909,needle_with_inner_ring,true,45,68.0,40.0,70400,137000,8500,0.5
+NKIS 45,needle_with_inner_ring,true,45,72.0,22.0,44600,78000,8000,0.34
+NKI 50/25,needle_with_inner_ring,true,50,68.0,25.0,40200,88000,8500,0.26
+NKI 50/35,needle_with_inner_ring,true,50,68.0,35.0,52300,122000,8500,0.36
+NA 4910,needle_with_inner_ring,true,50,72.0,22.0,47300,85000,8000,0.27
+NA 6910,needle_with_inner_ring,true,50,72.0,40.0,73700,150000,8000,0.52
+NKIS 50,needle_with_inner_ring,true,50,80.0,28.0,62700,104000,7500,0.52
+NKI 55/25 TN,needle_with_inner_ring,true,55,72.0,25.0,46800,110000,7500,0.26
+NKI 55/35,needle_with_inner_ring,true,55,72.0,35.0,55000,134000,7500,0.36
+NA 4911,needle_with_inner_ring,true,55,80.0,25.0,57200,106000,7000,0.39
+NA 6911,needle_with_inner_ring,true,55,80.0,45.0,89700,190000,7000,0.78
+NKIS 55,needle_with_inner_ring,true,55,85.0,28.0,66000,114000,6700,0.56
+NKI 60/25,needle_with_inner_ring,true,60,82.0,25.0,44000,95000,6700,0.39
+NKI 60/35,needle_with_inner_ring,true,60,82.0,35.0,60500,146000,6700,0.55
+NA 4912,needle_with_inner_ring,true,60,85.0,25.0,60500,114000,6700,0.43
+NA 6912,needle_with_inner_ring,true,60,85.0,45.0,93500,204000,6700,0.81
+NKIS 60,needle_with_inner_ring,true,60,90.0,28.0,68200,120000,6300,0.56
+NA 4913,needle_with_inner_ring,true,65,90.0,25.0,61600,120000,6300,0.46
+NKI 65/25,needle_with_inner_ring,true,65,90.0,25.0,52800,106000,6300,0.46
+NKI 65/35,needle_with_inner_ring,true,65,90.0,35.0,73700,163000,6300,0.66
+NA 6913,needle_with_inner_ring,true,65,90.0,45.0,95200,212000,6300,0.83
+NKIS 65,needle_with_inner_ring,true,65,95.0,28.0,70400,132000,6000,0.64
+NKI 70/25,needle_with_inner_ring,true,70,95.0,25.0,56100,127000,5600,0.51
+NKI 70/35,needle_with_inner_ring,true,70,95.0,35.0,76500,190000,5600,0.72
+NA 4914,needle_with_inner_ring,true,70,100.0,30.0,84200,163000,5600,0.73
+NA 6914,needle_with_inner_ring,true,70,100.0,54.0,128000,285000,5600,1.35
+NKI 75/25,needle_with_inner_ring,true,75,105.0,25.0,69300,132000,5300,0.64
+NA 4915,needle_with_inner_ring,true,75,105.0,30.0,84200,170000,5300,0.78
+NKI 75/35,needle_with_inner_ring,true,75,105.0,35.0,96800,200000,5300,0.91
+NA 6915,needle_with_inner_ring,true,75,105.0,54.0,130000,290000,5300,1.45
+NKI 80/25,needle_with_inner_ring,true,80,110.0,25.0,72100,140000,5000,0.68
+NA 4916,needle_with_inner_ring,true,80,110.0,30.0,88000,183000,5000,0.88
+NKI 80/35,needle_with_inner_ring,true,80,110.0,35.0,101000,216000,5000,0.96
+NA 6916,needle_with_inner_ring,true,80,110.0,54.0,134000,315000,5000,1.5
+NKI 85/26,needle_with_inner_ring,true,85,115.0,26.0,73700,146000,4800,0.74
+NKI 85/36,needle_with_inner_ring,true,85,115.0,36.0,105000,232000,4800,1.05
+NA 4917,needle_with_inner_ring,true,85,120.0,35.0,108000,250000,4500,1.25
+NA 6917,needle_with_inner_ring,true,85,120.0,63.0,165000,425000,4500,2.2
+NKI 90/26,needle_with_inner_ring,true,90,120.0,26.0,76500,156000,4500,0.78
+NKI 90/36,needle_with_inner_ring,true,90,120.0,36.0,108000,250000,4500,1.1
+NA 4918,needle_with_inner_ring,true,90,125.0,35.0,112000,265000,4300,1.3
+NA 6918,needle_with_inner_ring,true,90,125.0,63.0,172000,450000,4300,2.3
+NKI 95/26,needle_with_inner_ring,true,95,125.0,26.0,78100,166000,4300,0.82
+NKI 95/36,needle_with_inner_ring,true,95,125.0,36.0,112000,265000,4300,1.15
+NA 4919,needle_with_inner_ring,true,95,130.0,35.0,114000,270000,4000,1.35
+NA 6919,needle_with_inner_ring,true,95,130.0,63.0,172000,465000,4000,2.5
+NKI 100/30,needle_with_inner_ring,true,100,130.0,30.0,96800,220000,4000,0.99
+NKI 100/40,needle_with_inner_ring,true,100,130.0,40.0,123000,305000,4000,1.35
+NA 4920,needle_with_inner_ring,true,100,140.0,40.0,125000,280000,4000,1.9
+NA 4822,needle_with_inner_ring,true,110,140.0,30.0,93500,232000,3800,1.1
+NA 4922,needle_with_inner_ring,true,110,150.0,40.0,130000,300000,3600,2.05
